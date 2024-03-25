@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 10px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,3 +12,68 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* 
+.container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.draggable-div {
+  width: 100px;
+  height: 50px;
+  background-color: #ccc;
+  border: 1px solid #666;
+  text-align: center;
+  line-height: 50px;
+  position: absolute;
+}
+ */
+
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 600px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.resizable {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+
+.box {
+  padding: 10px;
+} */
+
+
+.container {
+  position: relative;
+  width: 800px; /* Adjust width as needed */
+  height: 600px; /* Adjust height as needed */
+  border: 2px solid #ccc;
+  overflow: hidden; /* Ensure contents stay within the container */
+}
+
+
+.resizable {
+  background-color: #f0f0f0;
+  border: 1px solid #999;
+  overflow: hidden;
+}
+
+.box {
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  /* position: absolute; */
+  overflow: hidden;
+}
+
